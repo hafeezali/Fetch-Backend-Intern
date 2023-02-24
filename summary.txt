@@ -1,16 +1,25 @@
-1. I chose Python and Pandas library for this coding exercise because Python is a popular language for data analysis tasks, and Pandas provides a convenient way to handle data in tabular format. The argparse library was used for easy handling of command-line arguments.
+1. I chose Python and Pandas library for this coding exercise because Python is a popular language for data analysis tasks, 
+and Pandas provides a convenient way to handle data in tabular format. The argparse library was used for easy handling of 
+command-line arguments.
 
 2.
 Advantages of my solution:
 
-The code is easy to read and understand, even for those who are not familiar with Python.
-The program reads from a CSV file and processes arguments from the command line, making it more flexible.
-The program follows the rules for spending points as outlined in the exercise.
-The program returns the correct payer balances.
+- The code is easy to read and understand, even for those who are not familiar with Python.
+- The program reads from a CSV file and processes arguments from the command line, making it more flexible.
+- The program follows the rules for spending points as outlined in the exercise.
+- The program returns the correct payer balances.
 
 Disadvantages of my solution:
 
-The program assumes that the CSV file has the correct format and does not check for errors or missing values.
-The program does not fully handle situations where the total points spent are greater than the total points earned. Final balances for each payer will be set to 0 and a descriptive message will be displayed. An example scenario where this can occur is if all payer points in transactions.csv file are negative.
+- The program assumes that the CSV file has the correct format and does not check for errors or missing values.
+- The program does not fully handle situations where the total points spent are greater than the total points earned. Final 
+balances for each payer will be set to 0 and a descriptive message will be displayed. An example scenario where this can occur
+ is if all payer points in transactions.csv file are negative.
 
-3. One of my favorite school projects was the design and development of a distributed file system. It was designed to follow AFS semantics and required a thorough understanding of Linux file system calls such as open, close, read, and write among many others. It challenged me to learn to design a system that is fault-tolerant, memory efficient, and highly performant over the network. For this project, I learned gRPC and Protobuf which I used to set up client-server communication. I liked the project since it gave a lot of flexibility in designing communication protocols while taking into account memory and performance tradeoffs. Overall, it was a rewarding experience that allowed me to improve my knowledge of distributed file systems.
+3. One of my favorite school projects was the design and development of a distributed file system. It was designed to follow 
+AFS semantics and required a thorough understanding of Linux file system calls such as open, close, read, and write among many 
+others. It challenged me to learn to design a system that is fault-tolerant, memory efficient, and highly performant over the 
+network. For this project, I learned gRPC and Protobuf which I used to set up client-server communication. I liked the project 
+since it gave a lot of flexibility in designing communication protocols while taking into account memory and performance 
+tradeoffs. Overall, it was a rewarding experience that allowed me to improve my knowledge of distributed file systems.
